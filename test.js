@@ -18,7 +18,7 @@ test("One euro should be 1.2 dollars", function(){
     const { fromEuroToDollar } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(fromEuroToDollar(3.5)).toBe(4.2); //1 euro son 1.2 dolares, entonces 3.5 euros deberian ser = (3.5 * 1.2)
+    expect(fromEuroToDollar(3.5)).toBe(4.20); //1 euro son 1.2 dolares, entonces 3.5 euros deberian ser = (3.5 * 1.2)
 })
 
 test("One dollar should be 106.5833333333333 yen", function(){
@@ -29,10 +29,10 @@ test("One dollar should be 106.5833333333333 yen", function(){
     expect(fromDollarToYen(3.5)).toBe(373.04); 
 })
 
-test("", function(){
+test("One yen should be 0.0062548866301798 pound", function(){
     // importo la funcion desde app.js
-    const { fromDollarToYen } = require('./app.js')
+    const { fromYenToPound } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(fromDollarToYen(3.5)).toBe(373.04); 
+    expect(fromYenToPound(3.5)).toBe(0.02); 
 })

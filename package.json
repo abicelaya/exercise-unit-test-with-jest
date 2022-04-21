@@ -1,0 +1,23 @@
+{
+  "name": "exercise-unit-test-with-jest",
+  "version": "1.0.0",
+  "description": "``` Importante: 💻  Este ejercicio es interactivo! Sigue las instrucciones. ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abicelaya/exercise-unit-test-with-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abicelaya/exercise-unit-test-with-jest/issues"
+  },
+  "homepage": "https://github.com/abicelaya/exercise-unit-test-with-jest#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
